@@ -1,0 +1,71 @@
+/* Home.css */
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.home-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.home-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.home-sections {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.home-section {
+    margin: 0 10px;
+}
+
+.home-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+.home-link:hover {
+    transform: translateY(-5px);
+}
+
+.character-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 16px;
+}
+
+.home-message {
+    margin-top: 20px;
+    font-style: italic;
+    color: #0e0e0e;
+}
+
+@media (min-width: 768px) {
+    .character-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-title {
+        font-size: 18px;
+    }
+}
