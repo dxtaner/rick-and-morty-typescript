@@ -1,0 +1,95 @@
+.locations-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background: linear-gradient(to bottom right, #f0f0f0, #c7a589);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.locations-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+.loading {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+}
+
+.locations-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.location-item {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    border-left: 4px solid #8a6d3b;
+}
+
+.location-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.location-link {
+    color: #2c2c2c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.location-link:hover {
+    text-decoration: underline;
+}
+
+.location-details {
+    margin-top: 10px;
+    color: #555;
+}
+
+.location-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #333;
+}
+
+.location-info {
+    margin: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 7px 12px;
+    border: 1px solid #8a6d3b;
+    border-radius: 5px;
+    background-color: #e0c3a5;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination button:hover {
+    background-color: #b08968;
+    transform: scale(1.05);
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
