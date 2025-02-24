@@ -1,0 +1,73 @@
+/* App.css - Modern Gradient Style */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #d9a7c7, #fffcdc);
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-bar {
+  width: 100%;
+  font-weight: 800;
+  background: linear-gradient(to right, #a5b7d9, #4876c6);
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #ffcc70;
+}
+
+.content {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.footer {
+  margin-top: 30px;
+  background: linear-gradient(to left, #657aa1, #2a5298);
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.footer a {
+  color: #ffcc70;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
