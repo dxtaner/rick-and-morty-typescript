@@ -1,0 +1,196 @@
+/* App.css - Modern Gradient Style */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #d9a7c7, #fffcdc);
+    color: #333;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-bar {
+    width: 100%;
+    font-weight: 800;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #ffcc70;
+  }
+  
+  .content {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    background: linear-gradient(to left, #1e3c72, #2a5298);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .footer a {
+    color: #ffcc70;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  
+  .characters-container {
+    margin: 20px auto;
+    width: 90%;
+    border: 2px dotted #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #a18cd1, #fbc2eb);
+  }
+  
+  .card {
+    background: linear-gradient(to bottom right, #ffffff, #f7d9e3);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border: none;
+    padding-bottom: 12px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-link {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin: 12px 0;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .episodes-container {
+    padding: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .episodes-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .loading {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .episodes-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .episode-item {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #ff7e5f;
+    border-top: 3px double #ff7e5f;
+    padding: 18px;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    background: #fff;
+  }
+  
+  .episode-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+  }
+  
+  .episode-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .episode-info {
+    margin: 0;
+    color: #666;
+  }
+  
+  .pagination {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    padding: 8px 14px;
+    margin: 0 6px;
+    border: 1px solid #ff7e5f;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background: #ff7e5f;
+    color: white;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
