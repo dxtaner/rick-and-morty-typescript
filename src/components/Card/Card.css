@@ -1,0 +1,117 @@
+/* App.css - Modern Gradient Style */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #d9a7c7, #fffcdc);
+    color: #333;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-bar {
+    width: 100%;
+    font-weight: 800;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-list li {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+    color: #ffcc70;
+  }
+  
+  .content {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    background: linear-gradient(to left, #1e3c72, #2a5298);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .footer a {
+    color: #ffcc70;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  
+  .characters-container {
+    margin: 20px auto;
+    width: 90%;
+    border: 2px dotted #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #a18cd1, #fbc2eb);
+  }
+  
+  .card {
+    background: linear-gradient(to bottom right, #ffffff, #f7d9e3);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    border: none;
+    padding-bottom: 12px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-link {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin: 12px 0;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+  }
