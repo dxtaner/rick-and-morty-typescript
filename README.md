@@ -8,9 +8,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ## Screen Shots
-![GIF Örneği](screenshoots/gif1.gif)
-![GIF Örneği](screenshoots/gif2.gif)
-![GIF Örneği](screenshoots/gif3.gif)
+
+![News App Demo](https://github.com/dxtaner/rick-and-morty-typescript/blob/main/screenshoots/gif1.gif)
+![News App Demo](https://github.com/dxtaner/rick-and-morty-typescript/blob/main/screenshoots/gif2.gif)
+![News App Demo](https://github.com/dxtaner/rick-and-morty-typescript/blob/main/screenshoots/gif3.gif)
+
 
 ## Expanding the ESLint configuration
 
